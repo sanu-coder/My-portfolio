@@ -11,11 +11,11 @@
 --------------------------------------------------------------*/
 
 body {
-    font-family: 'Domine', serif;
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
+    /* font-family: 'Domine', serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 1.2rem;
     color: #000000;
-    font-weight: bold;
 }
 
 a {
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Langar', cursive;
+    font-family: 'Yusei Magic', sans-serif;
     font-weight: bolder;
 }
 
@@ -93,7 +93,8 @@ h6 {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: url("../img/portfolio/nav2.jpg") top center;
+    background-color: rgb(196, 196, 196);
+    /* background: url("../img/portfolio/nav2.jpg") top center; */
     background-size: cover;
     overflow-y: auto;
 }
@@ -118,14 +119,14 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-    color: #224466;
+    color: black;
     text-decoration: none;
 }
 
 #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #212431;
+    background: black;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -138,7 +139,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: rgb(88, 88, 88);
     color: #fff;
     text-decoration: none;
 }
@@ -166,6 +167,8 @@ h6 {
 
 .nav-menu {
     padding-top: 30px;
+    font-size: 2.5 rem;
+    font-weight: bold;
 }
 
 .nav-menu * {
@@ -182,7 +185,7 @@ h6 {
 .nav-menu a {
     display: flex;
     align-items: center;
-    color: #346aa5;
+    color: #5b5b5b;
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -192,7 +195,7 @@ h6 {
 .nav-menu a i {
     font-size: 24px;
     padding-right: 8px;
-    color: #5794f0;
+    color: #5b5b5b;
 }
 
 .nav-menu a:hover,
@@ -205,7 +208,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active>a i,
 .nav-menu li:hover>a i {
-    color: #149ddd;
+    color: black;
 }
 
 
@@ -250,7 +253,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/portfolio/preview_image.jpg") top center;
+    background: url("../img/portfolio/preview_image.png") top center;
     background-size: cover;
 }
 
@@ -322,7 +325,7 @@ section {
 }
 
 .section-bg {
-    background: url("../img/portfolio/background3.jpg") top center;
+    /* background: url("../img/portfolio/background3.jpg") top center; */
     background-size: cover;
 }
 
@@ -332,7 +335,7 @@ section {
 
 .section-title h2 {
     font-size: 32px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
@@ -477,11 +480,47 @@ section {
     background: #dce8f8;
 }
 
-.skills .progress-bar {
+.skills .progress-bar1 {
     width: 1px;
-    height: 10px;
+    height: 15px;
     transition: 1.2s;
-    background-color: #121113f0;
+    background-color: rgb(211, 8, 211, 0.877);
+}
+
+.skills .progress-bar2 {
+    width: 1px;
+    height: 15px;
+    transition: 1.2s;
+    background-color: rgb(250, 67, 67);
+}
+
+.skills .progress-bar3 {
+    width: 1px;
+    height: 15px;
+    transition: 1.2s;
+    background-color: rgb(96, 96, 214);
+}
+
+.skills .progress-bar4 {
+    width: 1px;
+    height: 15px;
+    transition: 1.2s;
+    background-color: rgba(211, 8, 211, 0.877);
+    ;
+}
+
+.skills .progress-bar5 {
+    width: 1px;
+    height: 15px;
+    transition: 1.2s;
+    background-color: darkblue;
+}
+
+.skills .progress-bar6 {
+    width: 1px;
+    height: 15px;
+    transition: 1.2s;
+    background-color: rgb(96, 96, 214);
 }
 
 #skills .row .filter-app {
@@ -493,11 +532,11 @@ section {
 }
 
 #skills .row .filter-app img {
-    height: 250px;
-    width: 250px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     border-style: ridge;
-    border-width: 10px;
+    border-width: 5px;
     border-color: #4295ed;
     ;
 }
@@ -1230,12 +1269,12 @@ section {
 }
 
 #skills1 .row .filter-app img {
-    height: 250px;
-    width: 250px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     border-style: ridge;
     border-color: #4295ed;
-    border-width: 10px;
+    border-width: 5px;
     ;
 }
 
